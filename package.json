@@ -1,0 +1,34 @@
+{
+  "name": "lodashes-webpack",
+  "version": "1.0.0",
+  "description": "Testing webpack 2 lodash treeshaking with a custom build of lodash-es without default export",
+  "main": "index.js",
+  "scripts": {
+    "start": "./start.sh",
+    "build": "babel-node ./node_modules/webpack/bin/webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obartra/lodashes-webpack.git"
+  },
+  "author": "Oscar Bartra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obartra/lodashes-webpack/issues"
+  },
+  "homepage": "https://github.com/obartra/lodashes-webpack#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "6.24.1",
+    "babel-loader": "6.4.1",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-es2015": "6.24.1",
+    "rollup-loader": "^0.3.0",
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
+    "uglifyjs-webpack-plugin": "0.4.3",
+    "webpack": "2.4.1"
+  },
+  "dependencies": {
+    "lodash-cli": "git+https://github.com/obartra/lodash-cli.git#no-default-export-es6"
+  }
+}
