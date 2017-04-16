@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./start.sh",
-    "build": "babel-node ./node_modules/webpack/bin/webpack.js"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,14 +18,6 @@
   },
   "homepage": "https://github.com/obartra/lodashes-webpack#readme",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "6.24.1",
-    "babel-loader": "6.4.1",
-    "babel-preset-env": "1.4.0",
-    "babel-preset-es2015": "6.24.1",
-    "rollup-loader": "^0.3.0",
-    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
-    "uglifyjs-webpack-plugin": "0.4.3",
     "webpack": "2.4.1"
   },
   "dependencies": {
